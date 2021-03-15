@@ -3,7 +3,7 @@ from discord.ext import tasks, commands
 import random
 import aiohttp
 from mysql.connector import connect, Error
-from cogs.geoguessrCog import GeoguessrCog
+from cogs.geoguessr.geoguessrCog import GeoguessrCog
 from mappers.geoContestMapper import GeoContestMapper
 from mappers.geoContestResultsMapper import GeoContestResultsMapper
 from configparser import RawConfigParser
